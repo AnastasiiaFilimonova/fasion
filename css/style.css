@@ -1,0 +1,137 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+}
+header {
+    min-height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+#intro {
+    min-height: 400px;
+    background: url(../img/slaider.jpg);
+}
+#logo {
+    font-size: 2rem;
+    padding: 12px;
+
+}
+.main-menu ul {
+    display: flex;
+    list-style-type: none;
+    padding-right: 12px;
+}
+.main-menu ul li {
+    padding: 12px;
+}
+.text {
+    margin: 0 auto;
+    width: 960px;
+    height: 400px;
+    
+}
+.container {
+    display: flex;
+    width: 480px;
+    height: 400px;
+    flex-direction: column;
+    justify-content: flex-end;
+    
+    color: white;
+    font-size: 20px;
+}
+#pictures {
+    margin: 0 auto;
+    width: 960px;
+    
+    display: flex;
+}
+.pictures-1 {
+    flex: 2;
+    
+    width: 66.6%;
+    flex-wrap: wrap;
+    display: flex;
+}
+.pictures-2 {
+    flex: 1;
+   
+    width: 33.3%;
+    display: flex;
+    flex-direction: column;
+}
+.card-1 {
+    width: 50%;
+    padding: 15px;
+}
+.card-1 img, .card-2 img,.card-3 img {
+    max-width: 100%;
+}
+.card-2 {
+    margin: 0 auto;
+    padding: 15px;
+    max-width: 270px;
+}
+.card-3 {
+    width: 100%;
+    padding: 15px;
+}
+.card-body {
+    text-align: center;
+}
+.pagination ul{
+    min-height: 30px;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.pagination {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.page-item {
+    padding: 10px;
+}
+
+h5 {
+    font-size: 15px;
+    text-align: center;
+}
+#pictures-square {
+    margin: 0 auto;
+    width: 960px;
+}
+.square {
+    margin: 0 auto;
+    width: 960px;
+    display: flex;
+    flex-direction: row;
+}
+.card-4 img {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+}
+#fashion-end {
+    margin: 30px auto;
+    width: 960px;
+}
+#contact {
+    margin: 30px auto;
+    width: 960px;
+    text-align: center;
+    margin-top: 30px;
+}
+footer {
+    margin: 30px auto;
+    width: 960px;
+    text-align: center;
+}
+.main-menu {
+    display: flex;
+    justify-content: center;
+}
