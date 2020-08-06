@@ -1,0 +1,14 @@
+@media (max-width:960px) {
+    .pictures-1 {
+        width: 100%;  
+    }
+    .pictures-2 {       
+        width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #pictures {
+        flex-wrap: wrap;
+    }
+}

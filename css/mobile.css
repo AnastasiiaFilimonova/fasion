@@ -1,0 +1,26 @@
+@media (max-width:480px) {
+    .main-menu ul {
+        padding: 0;
+    }
+    #logo {
+        width: 100%;
+    }
+    header {
+        flex-wrap: wrap;
+    }
+    .card-1, .card-2, .card-3, .card-4 {
+        max-width: 100%;
+    }
+    .card-4 {
+        width: 33%;
+    }
+    .square {
+        flex-wrap: wrap;
+    }
+    .pictures-1 {
+        flex-direction: column;
+    }
+    .card-1 {
+        width: 100%;
+    }
+}
