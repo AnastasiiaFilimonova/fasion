@@ -5,6 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link
+        rel="stylesheet"
+        href="/css/animate.css"
+    />
+    <link rel="stylesheet" href="css/animation.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/tablet.css">
     <link rel="stylesheet" href="css/mobile.css">
@@ -37,35 +42,44 @@
     </section>
     <section id="pictures" class="container">
         <div class="pictures-1">
-            <div class="card-1">
-                <img src="img/girl-1.jpg" alt="">
+            <div class="card-1 hover-text">
+                <div class="hover-rotate">
+                    <img src="img/girl-1.jpg" alt="">
+                </div>
+                <div class="card-body">
+
+                    <h5 class="card-title">TOURISM</h5>
+                    <p class="card-text">One of Saturn's largest rings may be newer than anyone</p>
+                </div>
+            </div>
+            <div class="card-1 hover-text">
+                <div class="hover-rotate">
+                    <img src="img/girl-2.jpg" alt="">
+                </div>
                 <div class="card-body">
                     <h5 class="card-title">TOURISM</h5>
                     <p class="card-text">One of Saturn's largest rings may be newer than anyone</p>
                 </div>
             </div>
-            <div class="card-1">
-                <img src="img/girl-2.jpg" alt="">
+            <div class="card-1 hover-text">
+                <div class="hover-zoom">
+                    <img src="img/boy-1.jpg" alt="">
+                </div>
                 <div class="card-body">
                     <h5 class="card-title">TOURISM</h5>
                     <p class="card-text">One of Saturn's largest rings may be newer than anyone</p>
                 </div>
             </div>
-            <div class="card-1">
-                <img src="img/boy-1.jpg" alt="">
+            <div class="card-1 hover-text">
+                <div class="hover-slide">
+                    <img src="img/girl-3.jpg" alt="">
+                </div>
                 <div class="card-body">
                     <h5 class="card-title">TOURISM</h5>
                     <p class="card-text">One of Saturn's largest rings may be newer than anyone</p>
                 </div>
             </div>
-            <div class="card-1">
-                <img src="img/girl-3.jpg" alt="">
-                <div class="card-body">
-                    <h5 class="card-title">TOURISM</h5>
-                    <p class="card-text">One of Saturn's largest rings may be newer than anyone</p>
-                </div>
-            </div>
-            <div class="card-1">
+            <div class="card-1 wow slideInLeft" data-wow-duration="2s">
                 <img src="img/girl-4.jpg" alt="">
                 <div class="card-body">
                     <h5 class="card-title">TOURISM</h5>
@@ -117,11 +131,11 @@
 
             <section class="pagination">
                 <ul>
-                  <li class="page-item"><a href="#">OLDER POST</a></li>
-                  <li class="page-item"><a href="#">1</a></li>
-                  <li class="page-item"><a href="#">2</a></li>
-                  <li class="page-item"><a href="#">3</a></li>
-                  <li class="page-item"><a href="#">NEXT POST</a></li>
+                    <li class="page-item"><a href="#">OLDER POST</a></li>
+                    <li class="page-item"><a href="#">1</a></li>
+                    <li class="page-item"><a href="#">2</a></li>
+                    <li class="page-item"><a href="#">3</a></li>
+                    <li class="page-item"><a href="#">NEXT POST</a></li>
                 </ul>
             </section>
 
@@ -194,12 +208,15 @@
     </section>
 
     <section id="contact" class="container">
-значки
+        значки
     </section>
 
     <footer class="container">
         @2019 Logwork. All right Reserved.
     </footer>
+    <script src="/js/wow.min.js"></script>
+    <script>new WOW().init();</script>
+    <script src="/js/script.js"></script>
 </body>
 
 </html>

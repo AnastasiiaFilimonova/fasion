@@ -1,0 +1,122 @@
+body {
+    overflow-X: hidden;
+}
+.hover-rotate img:hover, .scroll-active.active .hover-rotate img {
+    transform: rotate(-7deg) scale(1.2);
+    opacity: 1;
+}
+
+.hover-rotate img {
+    transition: 0.5s;
+    opacity: 0.9;
+}
+.hover-rotate, .hover-zoom, .hover-slide {
+    overflow: hidden;
+}
+
+.hover-zoom img:hover, .scroll-active.active .hover-zoom img {
+    transform: scale(1);
+
+}
+
+.hover-zoom img {
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+
+.hover-slide img:hover {
+    transform: translateX(-30px) scale(1.2);
+    
+}
+    
+.hover-slide img {
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+.hover-text .card-body {
+    transition: 0.5s;
+    transform: translateY(-100%);
+    opacity: 0;
+}
+.hover-text:hover .card-body {
+    transform: translateY(0);
+    opacity: 1;
+
+}
+.rotate-to-right {
+    animation: rotate-to-right 5s linear infinite alternate;
+}
+
+.rotate-to-right:hover{
+    animation-play-state: paused;
+}
+
+.show-from-down {
+    transform: translateY(500px);
+    transition: 2s;
+}
+
+.show-from-down.active {
+    transform: translateY(0px);
+}
+
+.show-from-left {
+    transform: translateX(-1000px);
+    transition: 2s;
+}
+
+.show-from-left.active{
+    transform: translateX(0px);
+}
+
+.show-from-right {
+    transform: translateX(1000px);
+    transition: 2s;
+}
+
+.show-from-right.active{
+    transform: translateX(0px);
+}
+.show-from-opacity {
+    opacity: 0;
+    transition: 2s;
+}
+
+.show-from-opacity.active{
+    opacity: 1;
+}
+
+@keyframes rotate-to-right {
+    from {
+        transform: translateX(0) rotate(0);    
+    }
+    to {
+        transform: translateX(500px) rotate(1080deg);  
+    }
+}
+
+@keyframes move {
+    from, 
+    to {
+        top: 0;
+        left: 0;
+    }
+    25%, 
+    75% {
+        top: 20%;
+    }
+    50% {
+        top: 10%;
+        left: 10%;
+    }
+}
+
+.transition-1 {
+    transition: 1s;
+}
+.transition-2 {
+    transition: 2s;
+}
+.transition-3 {
+    transition: 3s;
+}
